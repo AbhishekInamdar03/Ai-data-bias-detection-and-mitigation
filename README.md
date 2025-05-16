@@ -27,25 +27,19 @@ bash
 Copy
 Edit
 .
-├── data/                  # Dataset and preprocessing scripts
-├── notebooks/             # Jupyter notebooks for exploration
-├── models/                # ML model training and evaluation
-├── bias_mitigation.py     # Main script for bias mitigation
+|__ project.py             # Main script for bias mitigation
 ├── requirements.txt       # Dependencies
 └── README.md              # Project overview
 🚀 How to Run
 Install dependencies:
 
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Run the notebook or script:
 
-bash
-Copy
+
 Edit
-python bias_mitigation.py
+python project.py
 Output will include:
 
 Model accuracy
